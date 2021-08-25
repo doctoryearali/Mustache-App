@@ -1,0 +1,28 @@
+body
+{
+ font-family: 'Lobster Two', cursive;
+ background-repeat: no-repeat;
+ background-size: 1400px;
+ color: black;
+ box-shadow: black;
+}
+
+#save_btn
+{
+  background-color:white; 
+  color:black; 
+  font-family: 'Lobster Two', cursive;
+}
+
+canvas
+{
+ animation-name:changingColor;
+ animation-duration:6s;
+ animation-iteration-count: infinite;
+}
+
+@keyframes changingColor
+{
+ from{box-shadow: 1px 1px 38px #050002;}
+ to{box-shadow: 1px 1px 38px #0f0f0f;}
+}
